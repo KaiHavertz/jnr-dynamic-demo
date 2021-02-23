@@ -185,7 +185,7 @@ export default {
         reason("reason");
         this.$router
           .push({
-            path: "/" + this.tabsCurrentId,
+            path: "./" + this.tabsCurrentId,
           })
           .then((data) => {
             console.log("成功", data);
